@@ -1,8 +1,8 @@
-sudo: false 
 install: 
-        - wget http://apt.biicode.com/install.sh && chmod +x install.sh && ./install.sh 
-        - bii setup:cpp
-        - bii --version
+        - wget http://www.biicode.com/downloads/latest/ubuntu64
+        - mv ubuntu64 bii-ubuntu64.deb
+        - sudo dpkg -i bii-ubuntu64.deb && sudo apt-get -f install
+        - rm bii-ubuntu64.deb
 language: cpp
 
 compiler:
