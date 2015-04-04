@@ -7,7 +7,7 @@ set( PICOSAT_VERSION 960)
 
 configure_file(
   config.h.in  
-  config.h 
+  ${CMAKE_CURRENT_SOURCE_DIR}/config.h 
 )
 
 
