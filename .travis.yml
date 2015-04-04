@@ -1,3 +1,7 @@
+install: 
+        - wget http://apt.biicode.com/install.sh && chmod +x install.sh && ./install.sh 
+        - bii setup:cpp
+        - bii --version
 language: cpp
 
 compiler:
