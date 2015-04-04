@@ -1,7 +1,7 @@
 *Originally imported from http://fmv.jku.at/picosat/*
- 
+
 # picosat
-PicoSAT - A boolean satisfiablity solver 
+PicoSAT - A boolean satisfiablity solver
 
 # Compilation
 These are the sources of the PicoSAT solver.
