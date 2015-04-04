@@ -1,4 +1,5 @@
 [![Build Status](https://webapi.biicode.com/v1/badges/sfrehse/sfrehse/picosat/master)](https://www.biicode.com/sfrehse/picosat) 
+[![Build Status](https://travis-ci.org/sfrehse/picosat.svg?branch=master)](https://travis-ci.org/sfrehse/picosat)
 
 *Originally imported from http://fmv.jku.at/picosat/*
 
